@@ -20,7 +20,7 @@ def get_contestant_name(data, occupation)
   full_name
 end
 
-get_contestant_name(data, "Dental Assistant"))
+get_contestant_name(data, "Dental Assistant")
 
 def count_contestants_by_hometown(data, hometown)
   # code here
