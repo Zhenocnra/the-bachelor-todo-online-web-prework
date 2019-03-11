@@ -17,7 +17,7 @@ def get_contestant_name(data, occupation)
       end
     end
   end
-  full_name
+  full_name.join(', ')
 end
 
 def count_contestants_by_hometown(data, hometown)
