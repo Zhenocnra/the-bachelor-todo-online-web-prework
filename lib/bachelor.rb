@@ -42,7 +42,6 @@ def get_occupation(data, hometown)
     end
   end
   jobs[0]
-endde here
 end
 
 def get_average_age_for_season(data, season)
