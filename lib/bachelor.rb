@@ -13,7 +13,7 @@ def get_contestant_name(data, occupation)
   data.each do |season, info|
     info.each do |stats|
       if(stats["occupation"] == occupation)
-        contestant_name << stats["name"]
+        full_name << stats["name"]
       end
     end
   end
